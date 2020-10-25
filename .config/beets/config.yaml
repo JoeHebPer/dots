@@ -1,0 +1,10 @@
+directory: ~/music
+library: ~/docs/musiclibrary.db
+import:
+        move: yes
+        incremental: yes
+plugins: discogs chroma
+paths:
+    default: $albumartist/$album%aunique{}/$track $title
+    singleton: Non-Album/$artist/$title
+    comp: Compilations/$album%aunique{}/$track $title
