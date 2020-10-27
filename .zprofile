@@ -127,18 +127,7 @@ ex=🎯:\
 *.jar=♨:\
 *.java=♨:\
 "
-
-[ ! -f ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ] && shortcuts &
-
-if pacman -Qs libxft-bgra; then
-	# Start graphical server on user's current tty if not already running.
-	[[ -n "$(tty)" && -z $(pgrep -u $USER "\bXorg$") ]] && exec startx
-else
-	echo "\033[31mIMPORTANT\033[0m: Note that \033[32m\`libxft-bgra\`\033[0m must be installed for this build of dwm.
-Please run:
-	\033[32myay -S libxft-bgra-git\033[0m
-and replace \`libxft\`"
-fi
+[[ -n "$(tty)" && -z $(pgrep -u $USER "\bXorg$") ]] && exec startx
 
 # Switch escape and caps if tty and no passwd required:
 sudo -n loadkeys ${XDG_DATA_HOME:-$HOME/.local/share}/larbs/ttymaps.kmap
