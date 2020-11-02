@@ -6,21 +6,7 @@
 
 config_version: 2
 settings:
-  content.javascript.enabled:
-    global: false
-  content.notifications:
-    https://g9073.mudperipherd.club: false
-    https://www.1337x.to: false
-    https://xwubw.mudperipherd.club: false
-  tabs.background:
+  content.plugins:
     global: true
-  tabs.favicons.show:
-    global: never
-  tabs.position:
-    global: right
-  tabs.title.format:
-    global: '{tree}{collapsed}{audio}{index}: {current_title}'
-  tabs.tree_tabs:
-    global: true
-  tabs.width:
-    global: 12%
+  downloads.location.directory:
+    global: ~/dl/

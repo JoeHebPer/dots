@@ -4,7 +4,7 @@
 #   qute://help/settings.html
 
 # Uncomment this to still load settings configured via autoconfig.yml
-# config.load_autoconfig()
+config.load_autoconfig()
 
 # User agent to send. Unset to send the default. Note that the value
 # read from JavaScript is always the global value.
@@ -151,7 +151,7 @@ c.tabs.tree_tabs = True
 # used by prepending the search engine name to the search term, e.g.
 # `:open google qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://searx.lukesmith.xyz?preferences=eJx1VMFu2zAM_Zr5YmRA18NOPgwbhhUY0GJJdxVombY5S6JHyUm9rx-VxondYRfDpMTHx0eKFhJ2LISx6jCggCschG6CDisMu-d94diCy0YBU2LLfnSYsCrI6x0zCr_M1VdwEQuPqeemenrcH4oILUYEsX31oUg9eqw4WpBCME4uRcPBBDyZBPUlumEyesjuiFIxqPmepSvOUbuYZuXguCPLDR53DchQNBShdtgYDB0FrWCGntmYSyHvPnxuBTw4qgWNoaQOz78Qh_UVTMwurj2ZNB2xpI33tZicvcyfC17H3DksRwdz6fmoMhpzpAY5ZiDbRZ6M8VMkm1MJn6hZg_KIQXBkjWrJYQ6qKdWTHTBdMvRQC-TPxW6FwkBg1cwNyCGJh5kTx54HCLd0YQa4WYJNQ2mdfPFccdpGOPNbqCwXIlsCV3psCNR9ooF-T5xwDeZnj55lLpNAiE6nalNop6on8lmecxWLNNfcFGCl3Cv1q5kz6lRESvMaVN2JOIBsvNbaXTquoqcQtT-xX2VrpgbDtrt_AviNOlM9d-gXwpmCMha7qXrT_iz0Te-7l1W-u_v7jy8rSh11OrkQ03YSZ8_B6SSvvQG08o3jrM3SozD6C8OlW_qqFs3y79XxGneltHRgAXozRFeqrSCWkdt0AsGyIUGbOCu-6eOmVTXzEP8nE4zjatphHEpPIiwrnY8859XyD8Da84buGa_AsN0Htw0xukldsXoILQXS0Y1W2GWgR32C5pO1GKP58vigK-gkekFPfpLfORrQ9JwGnG_wC9hBQB-qmOcf3zVMnz-Khu3PiyLvN_u6W2cT0alqevbtcHjar1Ls0bVGObF4yKMcC60LFfov3WkbMA==&q={}', 'wa': 'https://wiki.archlinux.org/?search={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&SeB=nd&K={}', 'arg': 'https://aaaaarg.fail/search?query={}', 'abe': 'https://www.abebooks.co.uk/servlet/SearchResults?cm_sp=SearchF-_-TopNavISS-_-Results&ds=20&kn={}'}
+c.url.searchengines = {'DEFAULT': 'https://searx.lukesmith.xyz?preferences=eJx1VMFu2zAM_Zr5YmRA18NOPgwbhhUY0GJJdxVombY5S6JHyUm9rx-VxondYRfDpMTHx0eKFhJ2LISx6jCggCschG6CDisMu-d94diCy0YBU2LLfnSYsCrI6x0zCr_M1VdwEQuPqeemenrcH4oILUYEsX31oUg9eqw4WpBCME4uRcPBBDyZBPUlumEyesjuiFIxqPmepSvOUbuYZuXguCPLDR53DchQNBShdtgYDB0FrWCGntmYSyHvPnxuBTw4qgWNoaQOz78Qh_UVTMwurj2ZNB2xpI33tZicvcyfC17H3DksRwdz6fmoMhpzpAY5ZiDbRZ6M8VMkm1MJn6hZg_KIQXBkjWrJYQ6qKdWTHTBdMvRQC-TPxW6FwkBg1cwNyCGJh5kTx54HCLd0YQa4WYJNQ2mdfPFccdpGOPNbqCwXIlsCV3psCNR9ooF-T5xwDeZnj55lLpNAiE6nalNop6on8lmecxWLNNfcFGCl3Cv1q5kz6lRESvMaVN2JOIBsvNbaXTquoqcQtT-xX2VrpgbDtrt_AviNOlM9d-gXwpmCMha7qXrT_iz0Te-7l1W-u_v7jy8rSh11OrkQ03YSZ8_B6SSvvQG08o3jrM3SozD6C8OlW_qqFs3y79XxGneltHRgAXozRFeqrSCWkdt0AsGyIUGbOCu-6eOmVTXzEP8nE4zjatphHEpPIiwrnY8859XyD8Da84buGa_AsN0Htw0xukldsXoILQXS0Y1W2GWgR32C5pO1GKP58vigK-gkekFPfpLfORrQ9JwGnG_wC9hBQB-qmOcf3zVMnz-Khu3PiyLvN_u6W2cT0alqevbtcHjar1Ls0bVGObF4yKMcC60LFfov3WkbMA==&q={}', 'wa': 'https://wiki.archlinux.org/?search={}', 'aur': 'https://aur.archlinux.org/packages/?O=0&SeB=nd&K={}', 'arg': 'https://aaaaarg.fail/search?query={}', 'abe': 'https://www.abebooks.co.uk/servlet/SearchResults?cm_sp=SearchF-_-TopNavISS-_-Results&ds=20&kn={}', 'sep': 'https://leibniz.stanford.edu/friends/search_title/?query={}'}
 
 # Text color of the completion widget. May be a single color to use for
 # all columns or a list of three colors, one for each column.
