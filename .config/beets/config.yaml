@@ -1,4 +1,4 @@
-directory: ~/music
+directory: /media/music
 library: ~/docs/musiclibrary.db
 import:
         move: yes

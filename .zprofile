@@ -123,11 +123,11 @@ ex=🎯:\
 *.bib=🎓:\
 *.ged=👪:\
 *.part=💔:\
-*.torrent=🔽:\
+*.torrent=🔽:
 *.jar=♨:\
 *.java=♨:\
 "
-[[ -n "$(tty)" && -z $(pgrep -u $USER "\bXorg$") ]] && exec startx
+exec startx
 
 # Switch escape and caps if tty and no passwd required:
 sudo -n loadkeys ${XDG_DATA_HOME:-$HOME/.local/share}/larbs/ttymaps.kmap

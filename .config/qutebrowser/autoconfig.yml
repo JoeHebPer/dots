@@ -10,3 +10,7 @@ settings:
     global: true
   downloads.location.directory:
     global: ~/dl/
+  url.default_page:
+    global: https://start.duckduckgo.com/
+  url.start_pages:
+    global: https://start.duckduckgo.com
