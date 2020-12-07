@@ -3,8 +3,13 @@ library: ~/docs/musiclibrary.db
 import:
         move: yes
         incremental: yes
-plugins: discogs chroma
+plugins: discogs chroma ftintitle fetchart
 paths:
-    default: $albumartist/$album%aunique{}/$track $title
-    singleton: Non-Album/$artist/$title
-    comp: Compilations/$album%aunique{}/$track $title
+    default: %lower{$albumartist/$album%aunique{}/$track $title}
+    comp: %lower{compilations/$album%aunique{}/$track $title}
+fetchart:
+        minwidth: 1000
+        maxwidth: 1200
+replace:
+        '[ ]': _
+asciify_paths: yes

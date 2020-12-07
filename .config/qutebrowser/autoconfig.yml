@@ -6,10 +6,18 @@
 
 config_version: 2
 settings:
+  colors.webpage.darkmode.enabled:
+    global: true
+  colors.webpage.darkmode.grayscale.all:
+    global: true
+  content.notifications:
+    https://cryptowat.ch: false
   content.plugins:
     global: true
   downloads.location.directory:
     global: ~/dl/
+  scrolling.bar:
+    global: never
   url.default_page:
     global: https://start.duckduckgo.com/
   url.start_pages:

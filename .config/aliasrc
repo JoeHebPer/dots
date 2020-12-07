@@ -24,6 +24,8 @@ alias \
 alias \
 	ka="killall" \
 	bi="beet import dl/complete"\
+	v="nvim"
+	xm="sudo mount UUID=9b253b00-e0ed-4fa7-854a-4d911599d8ca /media"
 	g="git" \
 	trem="transmission-remote" \
 	ytv="youtube-viewer" \
